@@ -1,10 +1,14 @@
+-- Reading All values..
 select *
 from retail_sales;
 
+-- Checking Null Values in Transaction_id...
 select *
 from retail_sales 
 where transactions_id is null;
 
+
+--Checking Null Values in Sales_date...
 select *
 from retail_sales 
 where sale_date is null;
@@ -47,7 +51,7 @@ where sale_time is null
 
 
 
---- data expolaration
+--- Data expolaration
 
 -- How many sales we have ??
 select 
